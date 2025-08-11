@@ -1,0 +1,9 @@
+streamlit
+flask
+langchain
+langchain-community
+langchain-google-genai
+google-generativeai
+faiss-cpu
+pypdf
+nest_asyncio
