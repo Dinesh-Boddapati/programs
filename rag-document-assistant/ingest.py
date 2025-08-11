@@ -7,7 +7,7 @@ from langchain_community.vectorstores import FAISS
 
 # Set your Google API key
 # Make sure to set this environment variable in your system
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAWadfQpi95cG4HMDa1qZsVGlq9qdiXUaU"
+os.environ["GOOGLE_API_KEY"] = "YOUR GOOGLE_API_KEY"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # 1. Load Documents

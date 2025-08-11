@@ -12,7 +12,7 @@ import nest_asyncio
 nest_asyncio.apply()
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAWadfQpi95cG4HMDa1qZsVGlq9qdiXUaU"
+os.environ["GOOGLE_API_KEY"] = "YOUR GOOGLE_API_KEY"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # --- Helper Functions ---
